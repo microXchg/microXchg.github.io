@@ -412,6 +412,13 @@ Navigation =========*/
 	animation: flip 0.5s;
 }
 
+@media screen and (max-device-width: 480px){
+.navbar-brand {
+    font-size:1.6rem;
+}
+}
+
+
 .navbar-toggle {
 	float: right;
 	height: 40px;

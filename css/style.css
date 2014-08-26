@@ -415,11 +415,10 @@ Navigation =========*/
 @media screen and (max-device-width: 480px){
 .navbar-brand {
     float: left;
-    font-size: 1.4rem;
     height: 6rem;
     color: #222222;
     line-height: 4rem;
-    font-size: 3.8rem;
+    font-size: 3.4rem;
     font-weight: 700;
     padding: 1rem 0;
 }

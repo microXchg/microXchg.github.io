@@ -2,7 +2,7 @@
     "use strict";
 
     ///////////////////////////////////////////////////// Your
-    var venueAddress = "Alexanderplatz, Berlin"; // Venue
+    var venueAddress = "Kalkscheune, Johannisstraße, Berlin"; // Venue
     /////////////////////////////////////////////////// Adress
 
     var fn = {

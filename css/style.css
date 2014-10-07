@@ -959,7 +959,6 @@ Preloader ==========*/
     100%{transform:rotate(180deg);}
 }
 
-
 /*--------------------
 Copyrights =========*/
 .copyrights {
@@ -972,10 +971,18 @@ Copyrights =========*/
 .sponsor_logo {
     float: left;
     width: 285px;
-    height: 100px;
     line-height: 100px;
     text-align: center;
     padding: 0 15px 15px 15px;
+}
+
+.sponsor_logo a {
+    height: 100px;
+}
+
+.sponsor_logo p {
+    padding-top: 20px;
+    margin-bottom: -20px;
 }
 
 .sponsor_logo img {

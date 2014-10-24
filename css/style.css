@@ -673,9 +673,10 @@ Speaker's ==========*/
 /*--------------------
 PC ==========*/
 .pc {
-	max-width: 117px;
+	max-width: 165px;
     margin: 0 auto 20px;
     text-align: center;
+    height: 260px;
 }
 
 .pc h3 {
@@ -685,9 +686,13 @@ PC ==========*/
 .pc p {
 	font-size: 14px;
 	line-height: 1.8em;
+    position: absolute;
+    top: 195px; 
 }
 
 .pc-info {
+	max-width: 117px;
+    margin: 0 auto;
 	position: relative;
 }
 

@@ -1057,7 +1057,6 @@ Copyrights =========*/
 
 .s_logo {
     float: left;
-    width: 285px;
     line-height: 100px;
     text-align: center;
 }
@@ -1077,4 +1076,8 @@ Copyrights =========*/
     vertical-align: middle;
     background: #efefef;
     border-radius: 5px;
+}
+
+#sponsors_silver .s_logo {
+    padding-top: 20px;
 }

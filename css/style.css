@@ -1050,7 +1050,7 @@ Copyrights =========*/
 	color: #BBBAC0;
 }
 
-.sponsor_logo {
+.s_logo {
     float: left;
     width: 285px;
     line-height: 100px;
@@ -1058,16 +1058,16 @@ Copyrights =========*/
     padding: 0 15px 15px 15px;
 }
 
-.sponsor_logo a {
+.s_logo a {
     height: 100px;
 }
 
-.sponsor_logo p {
+.s_logo p {
     padding-top: 20px;
     margin-bottom: -20px;
 }
 
-.sponsor_logo img {
+.s_logo img {
     max-width: 100%;
     max-height: 100%;
     vertical-align: middle;

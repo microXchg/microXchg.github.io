@@ -1081,3 +1081,8 @@ Copyrights =========*/
 #sponsors_silver .s_logo {
     padding-top: 20px;
 }
+
+.content-tabs .section-header {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}

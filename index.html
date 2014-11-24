@@ -242,22 +242,302 @@
 				</section>
 				<!--==========-->
 
-				<!--===============================-->
-				<!--== Schedule ===================-->
-				<!--===============================-->
-				<section id="schedule" class="row separated">
+                <!--===============================-->
+                <!--== Schedule ===================-->
+                <!--===============================-->
+                <section id="schedule" class="row">
 					<div class="col-sm-12">
 						<div class="section-header text-center">
 							<h2>Schedule</h2>
 						</div>
 					</div>
-					<div class="row">
-						<div class="section-header text-center">
-                            <h3>Will soon be published!</h3>
-						</div>
-					</div>
-				</section>
-				<!--==========-->
+					<div class="col-sm-12">
+                    <div class="col-sm-12">
+                        <div class="content-tabs">
+                            <div class="section-header text-center">
+                                <h3>12th February </h3>
+                            </div>
+                            <ul class="nav nav-tabs">
+                              <li class="active"><a href="#d1tab1" data-toggle="tab">Track 1</a></li>
+                              <li><a href="#d1tab2" data-toggle="tab">Track 2</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="d1tab1">
+                                    <ul class="accordion-group">
+                                       <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>xx:xx</time>
+                                                <h4 class="accordion-title">Oliver Wegner: </h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                <h4>Language: German</h4>
+                                                <p>Titel: Gibt es etwas zwischen Microservices und monolithischen Architekturen?
+
+Der Trend zu Microservices in komplexen Systemumgebungen ist die architektonische Antwort auf agile Softwareentwicklung und Continuous Delivery. Kleine Systeme, die unabhängig voneinander entwickelt und separat betrieben werden können - eine Architektur als Enabler für das Business. Den Vorteilen gegenüber stehen aber die klassischen Herausforderungen der Integration. Wie sehen Integrationstests aus, wie kann der übergreifende Betrieb sichergestellt werden und wie werden fachliche Abhängigkeiten behandelt?
+
+In diesem Vortrag werde ich anhand der neuen E-Commerce Plattform von OTTO aufzeigen, wie wir den Monolithen Otto.de in vertikale Systeme aufgeteilt und dadurch ein agiles Arbeitsumfeld ermöglicht haben. Besonders für die organisatorischen Konsequenzen werde ich Lösungsansätze mit ihren Vor- und Nachteilen vorstellen. Klassische Querschnittsaspekte wie Tracking, Performance und Security haben wir in die Architektur integriert und diese damit im Laufe der Zeit kontinuierlich weiterentwickelt. </p>
+                                                <h4>Oliver Wegner</h4>
+                                                <p>OTTO, Leiter Architektur und Qualitätssicherung im eCommerce-Bereich
+
+Oliver Wegner leitet die Architektur und Qualitätssicherung im eCommerce-Bereich bei OTTO. Er verantwortete die Neuentwicklung von Otto.de und etablierte dabei eine agile Produktentwicklung. Er verfügt über langjährige Erfahrung in der Entwicklung und dem Betrieb komplexer E-Commerce Systeme, die er in unterschiedlichen Funktionen in der Ottogroup einsetzte. Leichtgewichtige Architekturen und das Etablieren dazu passender Organisationen bilden die Schwerpunkte seiner Arbeit.</p>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>xx:xx</time>
+                                                <h4 class="accordion-title">Martin W. Kirst + Eric Karge: </h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                <h4>Language: German</h4>
+                                                <p>The Future of Microservice Security
+
+Auf Microservice basierende Architekturen verheißen einfache horizontale Skalierung. Aus dem Blickwinkel der Security, muss dabei jeder einzelne Service seine Resourcen vor unerlaubtem Zugriff schützen. Verbreitete Lösungen, wie SessionId-Cookie oder OAuth, bremsen die horizontale Skalierung. Häufig bildet das zentrale Sessions-Repository einen Flaschenhals oder es ist zusätzlicher Installationsaufwand in der Infrastruktur notwendig. Die Angst vor diesen Aufwänden führt meist dazu, dass Security-Aspekte nicht umgesetzt werden.
+
+Dieser Track stellt einfache Verfahren und Frameworks der dezentralen Authentifizierung vor, die eine leichtgewichtige Sicherung für Microservices bilden können. Die grundlegenden kryptografischen Konzepte werden erläutert, so dass jeder Zuhörer einen guten Überblick über Einsatzszenarien bekommt. Außerdem zeigen praktische Erfahrungen aus erster Hand, dass diese Verfahren eine zukunftsträchtige horizontale Skalierung ermöglichen.
+
+--- Wenn gewünscht, kann ich den Vortrag auch gern in Englisch gestalten - meine Präferenz ist allerdings Deutsch. ---</p>
+                                                <h4>Martin W. Kirst + Eric Karge</h4>
+                                                <p>Martin W. Kirst arbeitet als Senior Developer bei der Hypoport AG. Am liebsten beschäftigt er sich mit Basis-Technologien und erforscht was die IT Welt im Innersten zusammenhält. Er ist Autor der Open Source Bibliothek „jmacaroons“. Bei der Hypoport AG arbeitet er in einem Team, dass die Microservice-Landschaft maßgeblich gestaltet und z.B. auf dezentrale Authentifizierung umgestellt hat.</p>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>xx:xx</time>
+                                                <h4 class="accordion-title">Richard Rodger: </h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                <h4>Language: English</h4>
+                                                <p>Measuring Micro-services.
+
+The micro-service architecture has changed the game for software
+development. It provides the first scalable, effective component model
+for software systems. By embracing the organic, dynamic and chaotic
+nature of micro-services, you can built fault-tolerant, scalable and
+reactive systms.
+
+But there is a dark side. Things can get out of control very quickly.
+As the number of micro-services, and messages and interactions between
+them grow, how do you keep control? How do you retain understanding of
+the system? How can you offer any commitments about its behaviour to
+your CEO?
+
+The answer is to embrace the complexity of the system, and recognize
+that it has emergent properties. Rather than auditing and tracking
+technical behaviour, measure the behaviour you care about, the
+business outcomes. This allows you to understand the effects of new
+deployments and failures at the right level.
+
+This talk will cover the measurement techniques that we have found to
+be most effective in the wild. The most useful metrics, and the best
+ways of capturing them is something we've discovered the hard way over
+the last three years. Embrace and build micro-services without fear of
+creating a monster!</p>
+                                                <h4>Richard Rodger</h4>
+                                                <p>Richard Rodger is the CTO of nearForm.com, a Node.js consultancy that
+builds large-scale micro-service systems. Richard is the author of
+Mobile Application Development in the Cloud (Wiley 2012), and was
+formerly CTO of feedhenry.com, a mobile applications platform. He is a
+regular contributor to the Sunday Business Post newspaper in Ireland,
+and holds degrees in Mathematics and Philosophy, and Computer Science.</p>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>xx:xx</time>
+                                                <h4 class="accordion-title">Kamil Szymański: </h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                <h4>Language: English</h4>
+                                                <p>Implementing ZooKeeper-based service discovery
+
+We would all agree that static or manual configuration of collaborators' hosts and ports is not an option in the world of microservices.
+I bet we can also do better (or more pragmatic) than building our own central (micro)service registry from scratch when there are open-source solutions providing solid foundations and building blocks for creating tailor-made service discovery.
+In this session we will see how to implement and use such a solution built on top of ZooKeeper.
+
+Expect to:
+- learn some ZooKeeper
+- discover how simple (as for a distributed system) it is to implement service discovery on top of ZooKeeper
+- see how to make service discovery almost transparent and test-friendly (we'll touch integration tests and Consumer Driven Contracts)
+- see services running and talking to each other with almost no configuration (yes you still need to know where ZooKeeper is)
+- hear some conclusions from implementing similar solution and running it in production</p>
+                                                <h4>Kamil Szymański</h4>
+                                                <p>Software developer, JVM & open-source enthusiast, DevOps advocate, Warsaw JUG leader, Warsjawa board member</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="d1tab2">
+                                    <ul class="accordion-group">
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>xx:xx</time>
+                                                <h4 class="accordion-title">Dustin Huptas, Andreas Schmidt: </h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                <h4>Language: English</h4>
+                                                <p>Title
+
+Microservices, Micro Operations? -
+Challenges of Microservice models at the operations level
+
+
+Abstract
+
+
+Microservices gain a lot of attention and a rising footprint within
+the communities of developers and software architects. Promises of flexible
+architectures are in reach, especially with container-driven stacks such as Docker.
+A rising number of dependent services will also challenge operations teams
+in delivering a functional system. The talk introduces to some of these
+challenges and offers working solutions from the field of automation and
+service discovery.
+</p>
+                                                <h4>Dustin Huptas, Andreas Schmidt</h4>
+                                                <p>
+Dustin Huptas and Andreas Schmidt work at Germany-based Cassini Consulting, where
+they build and optimize system and network architectures, feeling home at
+operations and shell level, from OSI layer 2 upwards and in DevOps-minded environments.
+They're interested in bringing developer and operations knowledge closer together.
+</p>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>xx:xx</time>
+                                                <h4 class="accordion-title">Caoilte O'Connor: </h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                <h4>Language: English</h4>
+                                                <p>Domain Service Aggregators : A structured approach to Microservice composition
+
+Discrete Microservices that cleanly map on to narrowly defined domains provide a solid architectural foundation for a system. "Domain Service Aggregator" is a label we have found useful for describing another type of Microservice. It encapsulates non-trivial intersections of the Domain Microservices.
+
+This talk will demonstrate how and when the Domain Service Aggregator Archetype can help you. We will use the architectural evolution of "Video on Demand" in a broadcast company as a working example.
+
+Along the way we will consider,
+- How Domain Service Aggregators differ from the Netflix "API Gateway Pattern"
+- How CAP theorem and caching concerns should inform your architectural decisions
+- CQRS and its relationship with Microservices
+- Avoiding "Domain Bleed" through good RESTful API design with HATEOAS
+- Versioning pitfalls</p>
+                                                <h4>Caoilte O'Connor</h4>
+                                                <p>Caoilte O'Connor is a developer at ITV, the UK's largest Commercial Terrestrial TV Network. He has spent the last 18 months carrying out digital archaeology on the accumulated strata left by successive Enterprise Service Bus implementations. His team has recently begun rolling out a new generation of TV apps and websites based on a Microservices Architecture. Caoilte also champions Functional Programming and Continuous Delivery.</p>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>xx:xx</time>
+                                                <h4 class="accordion-title">Oliver Schönherr: </h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                <h4>Language: German</h4>
+                                                <p>Der Agile Monolith – Wie wir unseren Monolithen erfolgreich gehalten haben und warum wir trotzdem auf Microservices setzen.
+
+Der Begriff Microservices ist in den letzten Jahren zu einem Buzzword unter Software-Entwicklern weltweit geworden, dass - wie viele andere Buzzwords vorher auch - stark polarisiert. Während die einen in einer Microservices-Architektur die Zukunft von Software-Architekturen, insbesondere für Web-Applikationen sehen, werden andere Stimmen laut, die darin nur den erfolgreichen Versuch sehen Komplexität in eine andere Ebene zu verlagern. In diesem Talk möchte ich unsere Erfahrungen mit 1 Monolithen, 10 Jahren Entwicklung und 100 Entwicklern schildern, beschreiben wie wir unsere monolithische Applikation erfolgreich konkurrenzfähig gehalten haben und warum wir letztlich doch auf eine Microservice-Architektur setzen.</p>
+                                                <h4>Oliver Schönherr</h4>
+                                                <p>Ich bin Software Architekt bei Immobilienscout24 und habe die letzten Jahre damit verbracht einen großen Teil unseres Monolithen erfolgreich in kleinere unabhängige Services zu zerteilen.
+
+Java Webapplikationen machen zwar den größten Teil meiner derzeitigen täglichen Arbeit aus, aber auch vor Frontend Technologien und Mobile native Apps habe ich keine Angst. Ausserdem interessiere ich mich stark für die organisatorischen Rahmenbedingungen die von Nöten sind erfolgreich Software Produkte zu entwickeln.</p>
+                                            </div>
+                                        </li>
+
+
+
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>xx:xx</time>
+                                                <h4 class="accordion-title">Alex Heusingfeld dann (zusammen mit Martin Eigenbrodt): </h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                <h4>Language:</h4>
+                                                <p>Microservices - Are your Frameworks ready?
+
+The term "MicroServices" has become a marketing buzzword filled with a variety of different meanings. This actually not-so-new service-oriented approach to system architecture promises great advantages compared to its monolithic counter parts but it also comes with a lot of new challenges which developers didn't find themselves faced with before.
+
+In this session we'd like to highlight those challenges that arise in practice and take a look at how different JVM-based application development stacks try to tackle them. We will identify gaps and discuss whether its  reasonable at all to expect your framework to bridge them.
+
+Examples shown will include Dropwizard, Spring Cloud and Play2 Scala.
+</p>
+                                                <h4>Alex Heusingfeld dann (zusammen mit Martin Eigenbrodt)</h4>
+                                                <p></p>
+                                            </div>
+                                        </li>
+
+
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="content-tabs">
+                            <div class="section-header text-center">
+                                <h3>13th February </h3>
+                            </div>
+                            <ul class="nav nav-tabs">
+                              <li class="active"><a href="#d2tab1" data-toggle="tab">Track 1</a></li>
+                              <li><a href="#d2tab2" data-toggle="tab">Track 2</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="d2tab1">
+                                    <ul class="accordion-group">
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>10:30</time>
+                                                <h4 class="accordion-title">Fugit, officia laudantium repellat</h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ratione nostrum atque nobis debitis doloremque. Fugit, officia laudantium repellat assumenda eligendi vel sed dolore     delectus. Vitae sequi cum doloribus veniam.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-pane" id="d2tab2">
+                                    <ul class="accordion-group">
+                                        <li class="accordion">
+                                            <a class="accordion-heading">
+                                                <time>11:30</time>
+                                                <h4 class="accordion-title">Fugit, officia laudantium repellat</h4>
+                                                <span class="fa fa-plus-circle pull-right"></span>
+                                            </a>
+                                            <div class="accordion-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ratione nostrum atque nobis debitis doloremque. Fugit, officia laudantium repellat assumenda eligendi vel sed dolore     delectus. Vitae sequi cum doloribus veniam.
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>    
+
+
 
 				<!--===============================-->
 				<!--== program committee ===================-->

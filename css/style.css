@@ -1086,3 +1086,15 @@ Copyrights =========*/
     margin-top: 40px;
     margin-bottom: 25px;
 }
+
+.ticket-button input[type='submit'] {
+    font-size: 3.5rem;
+    height:  8rem;
+}
+
+.schedule-button {
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+}

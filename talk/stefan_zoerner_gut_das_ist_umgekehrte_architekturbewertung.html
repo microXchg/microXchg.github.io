@@ -45,7 +45,7 @@
 
 								
 								<ul class="nav navbar-nav">
-									<li class="current"><a href="../index.html">Home</a></li>
+									<li class="current"><a href="../index.html" class="external">Home</a></li>
 								</ul>
 
 							</div>
@@ -171,5 +171,17 @@ Diese Session hilft Ihnen bei der individuellen Beantwortung dieser Fragen. In e
 
         </script>
 
+		<script>
+            function changePage(event) {
+                if($(event.target).hasClass('external')) {
+                    window.location.href = $(event.target).attr('href');
+                    return;
+                }
+                
+            }
+            $(function () {
+                $('.nav li').click( changePage );
+            })
+        </script>
 	</body>
 </html>

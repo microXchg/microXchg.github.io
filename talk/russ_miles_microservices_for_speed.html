@@ -45,7 +45,7 @@
 
 								
 								<ul class="nav navbar-nav">
-									<li class="current"><a href="../index.html">Home</a></li>
+									<li class="current"><a href="../index.html" class="external">Home</a></li>
 								</ul>
 
 							</div>
@@ -105,6 +105,10 @@ In this talk Russ Miles, Chief Scientist at Simplicity Itself, will take a tour 
                             <div class="speaker-info">
                                 <div class="speaker-photo">
                                     <img src="../images/speakers/russ_miles.jpg" alt="Russell Miles" />
+                                </div>
+                                
+                                <div class="speaker-contacts">
+                                    <a href="http://twitter.com/boicy" class="contact pull-right fa fa-twitter"></a>
                                 </div>
                                 
                             </div>
@@ -185,5 +189,17 @@ Russ’ current book is being published using the LeanPub platform and is titled
 
         </script>
 
+		<script>
+            function changePage(event) {
+                if($(event.target).hasClass('external')) {
+                    window.location.href = $(event.target).attr('href');
+                    return;
+                }
+                
+            }
+            $(function () {
+                $('.nav li').click( changePage );
+            })
+        </script>
 	</body>
 </html>

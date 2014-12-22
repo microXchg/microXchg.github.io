@@ -46,7 +46,7 @@
 
 								
 								<ul class="nav navbar-nav">
-									<li class="current"><a href="../index.html">Home</a></li>
+									<li class="current"><a href="../index.html" class="external">Home</a></li>
 								</ul>
 
 							</div>
@@ -173,5 +173,17 @@ Unser Team hat vor etwa zwei Jahren begonnen, den ersten Microservice einzuführ
 
         </script>
 
+		<script>
+            function changePage(event) {
+                if($(event.target).hasClass('external')) {
+                    window.location.href = $(event.target).attr('href');
+                    return;
+                }
+                
+            }
+            $(function () {
+                $('.nav li').click( changePage );
+            })
+        </script>
 	</body>
 </html>

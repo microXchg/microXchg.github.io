@@ -47,7 +47,7 @@
 
 								
 								<ul class="nav navbar-nav">
-									<li class="current"><a href="../index.html">Home</a></li>
+									<li class="current"><a href="../index.html" class="external">Home</a></li>
 								</ul>
 
 							</div>
@@ -184,5 +184,17 @@ Auf diese und andere Fragen gibt es Antworten in dieser Session und zeigt mögli
 
         </script>
 
+		<script>
+            function changePage(event) {
+                if($(event.target).hasClass('external')) {
+                    window.location.href = $(event.target).attr('href');
+                    return;
+                }
+                
+            }
+            $(function () {
+                $('.nav li').click( changePage );
+            })
+        </script>
 	</body>
 </html>

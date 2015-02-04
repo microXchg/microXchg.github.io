@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1400"
+   height="1400"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="mindthecloud-logo-1400x1400.svg"
+   inkscape:export-filename="/home/magnun/Downloads/mindthecloud-logo-1400x1400.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     id="namedview22"
+     showgrid="false"
+     inkscape:zoom="5.44"
+     inkscape:cx="-10.671226"
+     inkscape:cy="670.79151"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <path
+       id="U"
+       d="m 0,0 0,-23.524561 7.36985,0 0.0295,24.320501 c 0.19933,6.05928 4.68048,10.91014 10.19987,10.99581 5.68952,0 10.2883,-5.04097 10.2883,-10.99581 l 0,-24.320501 7.34037,0 0.0295,23.642471 c 0,10.78946 -7.841509,18.83733 -17.65815,18.83733 C 7.78259,18.95524 4e-5,10.288299 4e-5,0 L 0,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="N"
+       d="m 0,0 7.36985,0 0,-41.00584 -7.36985,0 0,28.093861 -21.166201,-28.093861 -7.39933,0 0,41.00584 7.39933,0 0,-27.56324 L 0,0 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="D"
+       d="m 0,0 0,40.98489 14.85232,-0.0313 c 10.78945,1.1e-5 19.458429,-9.207401 19.458429,-20.586451 0,-11.2906 -8.451479,-20.36711 -19.270419,-20.36711 L 0,-1e-6 z m 14.78965,7.52017 c 6.78026,0 12.22027,5.80137 12.22027,12.846939 0,7.13402 -5.62801,12.878283 -12.40827,12.878283 l -7.14415,0.0313 0,-25.725231 7.33215,-0.03129 z"
+       inkscape:connector-curvature="0" />
+    <path
+       id="R"
+       d="m 0,0 0,40.98489 7.39483,0 0,-16.32502 4.4181,0 11.593579,16.32502 7.990181,0 -11.906931,-17.79772 c 3.979721,-2.06356 6.67415,-6.03458 6.67415,-10.81023 C 26.163909,5.5672 20.628058,0 13.818309,0 L -1e-6,0 z m 7.48883,7.23816 6.32948,0.0313 c 2.830021,0 5.107441,2.27742 5.107441,5.10745 0,2.80054 -2.277411,5.07611 -5.107441,5.07611 l -6.32948,0 0,-10.21486 z"
+       inkscape:connector-curvature="0" />
+  </defs>
+  <text
+     style="font-size:62.950737px;text-anchor:middle;fill:#000000;stroke:#0019a8;stroke-width:0;stroke-dasharray:none;font-family:serif"
+     xml:space="preserve"
+     font-size="24"
+     id="svg_2"
+     y="605.21411"
+     x="193.33315"
+     stroke-linecap="null"
+     stroke-linejoin="null" />
+  <circle
+     style="fill:none;stroke:#dc241f;stroke-width:70"
+     sodipodi:ry="167"
+     sodipodi:rx="167"
+     sodipodi:cy="256"
+     sodipodi:cx="245"
+     d="M 412,256 C 412,348.23155 337.23155,423 245,423 152.76845,423 78,348.23155 78,256 78,163.76845 152.76845,89 245,89 c 92.23155,0 167,74.76845 167,167 z"
+     r="167"
+     cy="256"
+     cx="245"
+     id="ring"
+     transform="matrix(2.8013028,0,0,2.8013028,2.8392675,-18.133542)" />
+  <rect
+     style="fill:#0019a8;fill-opacity:1;stroke:none"
+     id="rect3783"
+     width="1400.2244"
+     height="217.59674"
+     x="0.040963151"
+     y="597.729"
+     ry="0" />
+  <g
+     id="g17"
+     transform="matrix(2.5446016,0,0,2.8013028,67.290598,-18.133542)">
+    <title
+       id="title19">Layer 2</title>
+    <text
+       stroke-linejoin="null"
+       stroke-linecap="null"
+       x="291.53665"
+       y="187.9352"
+       id="svg_4"
+       font-size="24"
+       xml:space="preserve"
+       transform="matrix(2.2659768,0,0,2.3933368,-410.6155,-171.11205)"
+       font-weight="bold"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#ffffff;stroke:#0019a8;stroke-width:0;stroke-dasharray:none;font-family:Sans-serif">MIND THE CLOUD</text>
+  </g>
+</svg>

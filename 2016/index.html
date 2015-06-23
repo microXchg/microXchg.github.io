@@ -60,7 +60,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="blk col-md-9">
-                            <h1>The Microservices Conference<br/>- will be back in Berlin 2016</h1>
+                            <h1>The Microservices Conference<br/>- will be back in 2016</h1>
 						</div>
 					</div>
 				</div>
@@ -138,7 +138,7 @@
                     <div class="col-sm-12">
                         <div class="section-header text-left">
                             <h2>Subscribe</h2>
-                            <h4>... to get more infos about the Conference and the Call for Papers and follow us on Twitter <a href="http://twitter.com/microxchg">@microxchg.</a></h4>
+                            <h4>... to get more info about the Conference and the Call for Papers and follow us on Twitter <a href="http://twitter.com/microxchg">@microxchg.</a></h4>
                         </div>
                     </div>
                     <div class="col-sm-12">
@@ -151,6 +151,7 @@
                             </div>
                             <p class="form-notification" style="display: none;">Done!</p>
                         </form>
+                        <h3 id="thanksforsubscribe" style="display: none;">Thank you for subscribing!</h3>
                     </div>
                 </section>
                 <!--==========-->
@@ -299,8 +300,34 @@
                 }
 
             }
+
+            function submitSubcription(event) {
+            }
+
+
             $(function () {
                 $('.nav li').click( changePage );
+
+                $('#subscribe-form').submit(function(e) {
+
+                    var postData = $(this).serializeArray();
+                    $.ajax({
+                        url: "http://mxchg-mailing.appspot.com/registration",
+                        type: "POST",
+                        crossDomain: true,
+                        contentType: "application/x-www-form-urlencoded",
+                        data: postData 
+                    })
+                    .done(function(data, textStatus, jqXHR) {
+                        $('#thanksforsubscribe').css("display", "block");
+                    })
+                    .fail(function(jqXHR, textStatus, errorThrown) {
+                        /* ... */
+                    })
+                    .always(function() {
+                        /* ... */
+                    });
+                });
             })
         </script>
 

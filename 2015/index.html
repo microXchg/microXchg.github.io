@@ -1408,6 +1408,15 @@ Das Team von <a href="http://www.openknowledge.de">open knowledge</a> bietet sei
           ga('send', 'pageview');
 
         </script>
+        <script>
+            function changePage(event) {
+                if($(event.target).hasClass('external')) {
+                    window.location.href = $(event.target).attr('href');
+                    return;
+                }
+
+            }
+        </script>
 
 	</body>
 </html>

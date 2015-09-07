@@ -1,0 +1,24 @@
+table {
+ width: 100%;
+ align: center;
+ padding: 30px;
+}
+
+th {
+font-size: 1.5em;
+text-align: center;
+}
+
+td {
+font-size: 2em; 
+padding: 20px;
+}
+
+td.value {
+color:green;
+text-align: center;
+}
+
+th.value {
+width: 15%;
+}

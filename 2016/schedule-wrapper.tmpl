@@ -1,0 +1,57 @@
+<!--===============================-->
+<!--== Schedule ===================-->
+<!--===============================-->
+<section id="schedule" class="row">
+    <div class="col-sm-12">
+        <div class="section-header text-center">
+            <h2>Schedule</h2>
+        </div>
+    </div>
+    <div class="col-sm-12">
+    <div class="col-sm-12">
+        <div class="content-tabs">
+            <div class="section-header text-center">
+                <h3>4th February </h3>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#d1tab1" data-toggle="tab">Track 1 (Gallery - 1st floor)</a></li>
+                <li><a href="#d1tab2" data-toggle="tab">Track 2 (Loft - 2nd floor)</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="d1tab1">
+                    <ul class="accordion-group">
+                        {{.Day1Track1}}
+                    </ul>
+                </div>
+                <div class="tab-pane" id="d1tab2">
+                    <ul class="accordion-group">
+                        {{.Day1Track2}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12">
+        <div class="content-tabs">
+            <div class="section-header text-center">
+                <h3>5th February </h3>
+            </div>
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#d2tab1" data-toggle="tab">Track 1 (Gallery - 1st floor)</a></li>
+                <li><a href="#d2tab2" data-toggle="tab">Track 2 (Loft - 2nd floor)</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="d2tab1">
+                    <ul class="accordion-group">
+                        {{.Day2Track1}}
+                    </ul>
+                </div>
+                <div class="tab-pane" id="d2tab2">
+                    <ul class="accordion-group">
+                        {{.Day2Track2}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

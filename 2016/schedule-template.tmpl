@@ -1,0 +1,19 @@
+<li class="accordion {{if .Session.Speakers}}{{else}}break{{end}}">
+    <a class="accordion-heading">
+        <time>{{.Session.Start}} - {{.Session.End}}</time>
+        <h4 class="accordion-title">{{.Session.Name}} {{if .Session.Speakers}}({{.Session.Speakers}}){{end}}</h4>
+        {{if .Session.Description}} <span class="fa fa-plus-circle pull-right"></span> {{end}}
+    </a>
+    <div class="accordion-body">
+    <p>{{.Session.Description}}</p>
+
+    {{range .Speakers}}
+    <h4>{{.Name}}</h4>
+
+    <p>{{.About}}</p>
+    {{end}}
+
+    <p><a href="talk/{{.DetailsUrl}}.html">... more</a>
+    </div>
+</li>
+

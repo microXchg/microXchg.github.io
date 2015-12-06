@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>microXchg 2016 - Bora Tunca - Microservices at SoundCloud</title>
+    <title>microXchg 2016 - Adrian Cockcroft - Analyzing Response Time Distributions for Microservices</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -86,14 +86,15 @@
     <section id="header" class="row">
         <div class="col-sm-12">
             <div class="section-header text-left">
-                <h2>Microservices at SoundCloud</h2>
+                <h2>Analyzing Response Time Distributions for Microservices</h2>
             </div>
         </div>
     </section>
     <section id="talk" class="row">
         <div class="col-sm-12">
         <div>
-            <p>At SoundCloud we managed to break away from the monolith while delivering key business features. Our journey towards a microservices architecture has not been a straightforward one. We experimented a lot to reach the set of tools and technologies that we use today. We changed how we build our applications. We introduced specific apis for our mobile and web clients. We also reshaped our engineering teams into cross functional feature teams. While making all these changes, we benefited from the learnings of our peer companies. This talk will share our learnings from this journey: what worked for us and what we moved away from.<br /></p>
+            <h3>10:20 - 11:10</h3>
+            <p>The end to end response time of a network of microservices tends to have a wide distribution with a long tail at the 99th percentile, even if the mean is short. By collecting the response time distributions and throughput for request traces we can see how the individual microservices respond, but to combine these distributions and find which microservice is contributing the most to the 99th percentile requires application of montecarlo simulation. This talk will explain how this technique works and investigate tools ranging from Excel plugins to R packages that can implement montecarlo models.</p>
         </div>
     </section>
     
@@ -102,16 +103,16 @@
             <div class="speaker">
                 <div class="speaker-info">
                     <div class="speaker-photo">
-                        <img src="https://static.sched.org/a7/2496226/avatar.jpg.320x320px.jpg?43f" alt="Bora Tunca" />
+                        <img src="https://static.sched.org/a7/2497672/avatar.jpg.320x320px.jpg?d41" alt="Adrian Cockcroft"/>
                     </div>
                     <!--Twitter-->
                 </div>
-                <h3>Bora Tunca</h3>
+                <h3>Adrian Cockcroft</h3>
             </div>
         </div>
         <div class="col-sm-8">
             <p>
-                Bora is a software developer at SoundCloud. He started his journey there two and a half years ago. As a generalist, he has worked on various parts of their architecture. Nowadays he is part of the Core Engineering, where he helps to build and integrate the core business services of SoundCloud. When he's not juggling various languages, he's playing basketball - as long as someone on the team covers his on-call shifts...
+                <p>Adrian Cockcroft has had a long career working at the leading edge of technology. He’s always been fascinated by what comes next, and he writes and speaks extensively on a range of subjects. At Battery, he advises the firm and its portfolio companies about technology issues and also assists with deal sourcing and due diligence.</p><p>Before joining Battery, Adrian helped lead Netflix’s migration to a large scale, highly available public-cloud architecture and the open sourcing of the cloud-native NetflixOSS platform. Prior to that at Netflix he managed a team working on personalization algorithms and service-oriented refactoring.</p><p>Adrian was a founding member of eBay Research Labs, developing advanced mobile applications and even building his own homebrew phone, years before iPhone and Android launched. As a distinguished engineer at Sun Microsystems he wrote the best-selling “Sun Performance and Tuning” book and was chief architect for High Performance Technical Computing.</p><p>He graduated from The City University, London with a Bsc in Applied Physics and Electronics, and was named one of the top leaders in Cloud Computing in 2011 and 2012 by SearchCloudComputing magazine. He can usually be found on Twitter @adrianco.</p>
             </p>
         </div>
     </section>
@@ -173,6 +174,7 @@
           ga('send', 'pageview');
 
 
+
 </script>
 
 <script>
@@ -186,6 +188,7 @@
             $(function () {
                 $('.nav li').click( changePage );
             })
+
 
 </script>
 </body>

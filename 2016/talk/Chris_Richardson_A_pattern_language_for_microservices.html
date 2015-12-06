@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>microXchg 2016 - Matthew Campbell - Cloud in your Cloud, how we build DigitalOcean</title>
+    <title>microXchg 2016 - Chris Richardson - A pattern language for microservices</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -86,14 +86,15 @@
     <section id="header" class="row">
         <div class="col-sm-12">
             <div class="section-header text-left">
-                <h2>Cloud in your Cloud, how we build DigitalOcean</h2>
+                <h2>A pattern language for microservices</h2>
             </div>
         </div>
     </section>
     <section id="talk" class="row">
         <div class="col-sm-12">
         <div>
-            <p>How is the cloud built? We will go into detail how we write microservices that run the cloud at scale. With tens of the thousands of customers, and 10+ datacenters. We will talk about how we write, monitor and deploy the microservices that run the cloud you use.&nbsp;<br />-----&nbsp;<br />Digital ocean is one of the largest cloud providers on the planet with 10 different datacenters and tens of the thousands of customers. We will talk about how we use microservices to power our cloud.<br />First we will talk about how we using a combination of GO, Ruby and Perl to build microservices. The trade offs of different rpcs protocols such as GRPC and http/JSON.<br />Second we will dive into how we manage service discovery with Consul on thousands of nodes.&nbsp;<br />Third we will talk about how we monitor health and performance of the cloud. We will go into how you should build metrics into your microservices. How we use structured logging into kibana.&nbsp;<br />Last we will talk about different deployment strategies we have used, including some on bare metal for hypervisors. Some at virtual machines. Lastly our more modern pieces that run on Docker and Mesos. We will go through how we tried all this different techniques to find the right one for each service.</p>
+            <h3>14:30 - 15:20</h3>
+            <p>When architecting an enterprise Java application, you need to choose between the traditional monolithic architecture consisting of a single large WAR file, or the more fashionable microservices architecture consisting of many smaller services. But rather than blindly picking the familiar or the fashionable, it&rsquo;s important to remember what Fred Books said almost 30 years ago: there are no silver bullets in software. Every architectural decision has both benefits and drawbacks. Whether the benefits of one approach outweigh the drawbacks greatly depends upon the context of your particular project. Moreover, even if you adopt the microservices architecture, you must still make numerous other design decisions, each with their own trade-offs.<br />A software pattern is an ideal way of describing a solution to a problem in a given context along with its tradeoffs. In this presentation, we describe a pattern language for microservices. You will learn about patterns that will help you decide when and how to use microservices vs. a monolithic architecture. We will also describe patterns that solve various problems in a microservice architecture including inter-service communication, service registration and service discovery.</p>
         </div>
     </section>
     
@@ -102,16 +103,16 @@
             <div class="speaker">
                 <div class="speaker-info">
                     <div class="speaker-photo">
-                        <img src="http://static.sched.org/a7/2493248/avatar.jpg?5d0" alt="Matthew Campbell" />
+                        <img src="https://static.sched.org/a6/1285312/avatar.jpg.320x320px.jpg?46d" alt="Chris Richardson"/>
                     </div>
                     <!--Twitter-->
                 </div>
-                <h3>Matthew Campbell</h3>
+                <h3>Chris Richardson</h3>
             </div>
         </div>
         <div class="col-sm-8">
             <p>
-                Matthew Campbell is a Microservices scalability expert at DigitalOcean where he builds the future of cloud services. He wrote a book called "Microservices in Go" for O'Reilly . He recently presented at GothamGO, Velocity NYC, and GopherCon India, and blogs at "kanwisher.com":http://kanwisher.com. Matthew was a founder of "Errplane":http://errplane.com/ and "Langfight":http://www.langfight.com. In the past he worked at Thomson Reuters, Bloomberg, Gucci, and Cartoon network.
+                Chris Richardson is a developer and architect. He is a Java Champion, a JavaOne rock star and the author of POJOs in Action, which describes how to build enterprise Java applications with frameworks such as Spring and Hibernate. Chris was also the founder of the original CloudFoundry.com, an early Java PaaS for Amazon EC2. He consults with organizations to improve how they develop and deploy applications and is working on his third startup.
             </p>
         </div>
     </section>
@@ -173,6 +174,7 @@
           ga('send', 'pageview');
 
 
+
 </script>
 
 <script>
@@ -186,6 +188,7 @@
             $(function () {
                 $('.nav li').click( changePage );
             })
+
 
 </script>
 </body>

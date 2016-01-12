@@ -1059,12 +1059,14 @@ Copyrights =========*/
 
 .s_logo {
     float: left;
-    line-height: 100px;
+    line-height: 85px;
     text-align: center;
 }
 
-.s_logo a {
-    height: 100px;
+.s_logo >a {
+    height: 85px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .s_logo p {
@@ -1074,13 +1076,9 @@ Copyrights =========*/
 
 .s_logo img {
     max-width: 100%;
-    max-height: 100px;
+    max-height: 85px;
     vertical-align: middle;
     border-radius: 5px;
-}
-
-#sponsors_silver .s_logo {
-    padding-top: 20px;
 }
 
 .content-tabs .section-header {

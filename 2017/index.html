@@ -503,6 +503,23 @@
 				</section>
 				<!--==========-->
 
+
+				<!--===============================-->
+				<!--== Partners ===================-->
+				<!--===============================-->
+
+
+
+
+				<section id="sponsors_gold" class="row">
+					<div class="col-sm-12">
+						<div class="section-header text-center">
+							<h2>Sponsors</h2>
+                            <h4><a href="http://microxchg.io/2017/sponsor/">How to become a sponsor?</a></h4>
+						</div>
+					</div>
+				</section>
+
 		<!--===============================-->
 		<!--== Partner user group  ======================-->
 		<!--===============================-->
@@ -590,32 +607,6 @@
                 }
 
             }
-
-
-            $(function () {
-                $('.nav li').click( changePage );
-
-                $('#subscribe-form').submit(function(e) {
-
-                    var postData = $(this).serializeArray();
-                    $.ajax({
-                        url: "http://mxchg-mailing.appspot.com/registration",
-                        type: "POST",
-                        crossDomain: true,
-                        contentType: "application/x-www-form-urlencoded",
-                        data: postData
-                    })
-                    .done(function(data, textStatus, jqXHR) {
-                        $('#thanksforsubscribe').css("display", "block");
-                    })
-                    .fail(function(jqXHR, textStatus, errorThrown) {
-                        /* ... */
-                    })
-                    .always(function() {
-                        /* ... */
-                    });
-                });
-            })
         </script>
 
 	</body>

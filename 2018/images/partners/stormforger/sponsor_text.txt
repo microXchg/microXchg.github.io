@@ -1,0 +1,1 @@
+StormForger empowers your team to create, manage and run large scale load and performance tests continuously in real time. Explore the behaviour of your API and web application. Investigate potential issues and focus on reliability and scalability. Automate and integrate performance testing in your Agile and DevOps workflows to get insights regularly.

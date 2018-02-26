@@ -1117,3 +1117,14 @@ Copyrights =========*/
     padding: 10px 40px;
     background-color: #fafafa;
 }
+
+#diversity input[type='submit'] {
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#diversity img {
+    max-width: 350px;
+    margin-bottom: 40px;
+}

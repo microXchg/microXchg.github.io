@@ -1128,3 +1128,9 @@ Copyrights =========*/
     max-width: 350px;
     margin-bottom: 40px;
 }
+
+#cfp input[type='submit'] {
+    width: 300px;
+    margin-top: 30px;
+}
+

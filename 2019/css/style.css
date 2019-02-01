@@ -1134,3 +1134,85 @@ Copyrights =========*/
     margin-top: 30px;
 }
 
+#tickets .btn {
+    width: 300px;
+    margin-top: 30px;
+		display: inline-block;
+}
+
+.btn {
+	display: block;
+	text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	background-color: #e74c3c;
+	box-sizing: border-box;
+	padding: 10px 15px 10px 15px;
+}
+
+.btn:hover {
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+
+.workshops #header-workshop .header-menu {
+	position: relative;
+}
+
+.workshops i.fa {
+	margin-right: 10px;
+}
+
+.workshops .flex {
+	display: flex;
+  padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.workshops .flex > div {
+	flex: 1;
+	padding: 5px;
+	margin-right: 10px;
+	border-right: 1px solid #cccccc;
+}
+
+.workshops .flex > div:last-child {
+	flex: 0.9;
+	margin-right: 0px;
+  border-right: 0px;
+}
+
+.workshops .speaker-photo {
+	max-width: 175px;
+	overflow: hidden;
+}
+
+.workshops .twitter-handle {
+	display:none;
+	margin-left: -60px;
+}
+
+.workshops .speaker:hover .twitter-handle {
+	display: block;
+	-moz-animation: bounceIn 0.5s;
+	-webkit-animation: bounceIn 0.5s;
+	animation: bounceIn 0.5s;
+}
+
+.workshops .twitter-handle > .contact {
+	width: 5.8rem;
+	font-size: 2.2rem;
+	line-height: 5rem;
+	background: #ffffff;
+	border-radius: 50%;
+	border: 4px solid;
+}
+
+
+.workshops .twitter-handle > .contact:hover {
+	color: #ffffff;
+	background-color: #e74c3c;
+}

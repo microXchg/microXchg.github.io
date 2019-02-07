@@ -15,7 +15,7 @@
 	.content section { padding: 25px 0; }
 	.content section + section:before { margin: -25px 15px 25px; }
 	.box { padding: 0 25px; }
-	.content section.separated { margin: 0 -25px -3px 0; }
+	.content section.separated { margin: 0 -25px -3px -25px; }
 
 	.navbar-nav,
 	.navbar-nav > li,
@@ -55,7 +55,7 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	html { font-size: 58.5% }
-	
+
 	.header-bg { height: 650px; }
 
 	.table-features li span { display: none; }

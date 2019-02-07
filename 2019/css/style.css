@@ -338,6 +338,7 @@ Header CTA ========*/
 	border-radius: 5px;
 	background: rgba(0, 0, 0, 0.5);
 	margin-top: 10px;
+	margin-right: 10px;
 }
 
 .header-cta h1 {
@@ -1158,7 +1159,7 @@ Copyrights =========*/
 }
 
 
-.workshops #header-workshop .header-menu {
+.workshops #header-workshop .header-menu.fixed {
 	position: relative;
 }
 
@@ -1215,4 +1216,8 @@ Copyrights =========*/
 .workshops .twitter-handle > .contact:hover {
 	color: #ffffff;
 	background-color: #e74c3c;
+}
+
+.workshops .header-menu.sticky > .box {
+	border-bottom: 5px solid #efefef;
 }

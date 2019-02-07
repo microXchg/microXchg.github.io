@@ -28,7 +28,7 @@
 
 <body class="workshops">
   <header id="header-workshop">
-    <div id="menu" class="header-menu">
+    <div id="menu" class="header-menu fixed">
       <div class="container box">
         <div class="row">
           <nav role="navigation" class="col-sm-12">
@@ -195,7 +195,7 @@
             </div>
           </div>
           <div align="center">
-            <a class="btn" href="#">Tickets for Chaos Engineering Workshop</a>
+            <a class="btn" href="https://www.codecentric.de/schulung/chaos-engineering-survive-in-production/#schulung-detail">Tickets for Chaos Engineering Workshop</a>
           <div>
         </div>
       </div>
@@ -244,7 +244,6 @@
 <script src="js/jquery.accordion.js"></script>
 <script src="js/jquery.placeholder.js"></script>
 <script src="js/jquery.fitvids.js"></script>
-
 <script src="js/fancySelect.js"></script>
 
 
@@ -260,6 +259,24 @@ function changePage(event) {
 $(function () {
   $('.nav li').click(changePage);
 })
+
+$(function () {
+  var menu = document.querySelector('#menu'),
+      origOffsetY = menu.offsetTop + 100;
+
+  function scroll() {
+    console.log("Scroll ", origOffsetY );
+      if ($(window).scrollTop() >= origOffsetY) {
+          $('#menu').addClass('sticky');
+          $('#menu').removeClass('fixed');
+      } else {
+          $('#menu').removeClass('sticky');
+          $('#menu').addClass('fixed');
+      }
+  }
+  document.onscroll = scroll;
+})
+
 </script>
 </body>
 

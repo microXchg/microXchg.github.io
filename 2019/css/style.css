@@ -1161,6 +1161,7 @@ Copyrights =========*/
 
 .workshops #header-workshop .header-menu.fixed {
 	position: relative;
+	margin-top: 0px;
 }
 
 .workshops i.fa {

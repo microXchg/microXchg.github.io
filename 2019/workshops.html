@@ -55,10 +55,10 @@
                 <a href="index.html">Home</a>
               </li>
               <li>
-                <a href="#ddd">DDD Workshop</a>
+                <a class="scroll" href="#ddd">DDD Workshop</a>
               </li>
               <li>
-                <a href="#chaos-engineering">Chaos Engineering Workshop</a>
+                <a class="scroll" href="#chaos-engineering">Chaos Engineering Workshop</a>
               </li>
 
             </ul>
@@ -262,10 +262,9 @@ $(function () {
 
 $(function () {
   var menu = document.querySelector('#menu'),
-      origOffsetY = menu.offsetTop + 100;
+      origOffsetY = menu.offsetTop ;
 
   function scroll() {
-    console.log("Scroll ", origOffsetY );
       if ($(window).scrollTop() >= origOffsetY) {
           $('#menu').addClass('sticky');
           $('#menu').removeClass('fixed');
@@ -275,7 +274,22 @@ $(function () {
       }
   }
   document.onscroll = scroll;
+
 })
+
+$(function() {
+  $('.scroll').on('click',function(e) {
+    e.preventDefault();
+    var offset = 80;
+    var target = this.hash;
+    if ($(this).data('offset') != undefined) offset = $(this).data('offset');
+    $('html, body').stop().animate({
+      'scrollTop': $(target).offset().top - offset
+    }, 500, 'swing', function() {
+      window.location.hash = target;
+    });
+  });
+});
 
 </script>
 </body>

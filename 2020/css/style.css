@@ -688,6 +688,10 @@ Speaker's ==========*/
 	color: #E95D4F;
 }
 
+speaker-contacts > .contact:hover::before {
+	color: #ffffff;
+}
+
 /*--------------------
 PC ==========*/
 .pc {
